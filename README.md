@@ -2,65 +2,137 @@
 
 <img align="right" heght="100" src="https://cdn-icons-png.flaticon.com/512/5190/5190582.png">
 
-## Table of Contents
-- [Problem Statement](#problem-statement)
-- [Data Acquisition](#data-acquisition)
-- [Project Overview](#project-overview)
-- [Getting Started](#getting-started)
-- [Data Description](#data-description)
-- [Modeling Approach](#modeling-approach)
-- [Evaluation](#evaluation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
+# Retail Analytics Case Study
 
-## Problem Statement
-A retail company aims to understand customer purchase behavior, specifically the purchase amount, for various products across different categories. This project involves analyzing a dataset containing customer demographics, product details, and purchase summaries. The goal is to build a predictive model that can estimate the purchase amount for customers, which will enable the company to create personalized offers for different products.
+This case study consists of three checkpoints. The case study is about exploratory data analysis and customer purchase behavior analysis in the retail domain, specifically focusing on Black Friday sales data.
 
-## Data Acquisition
-The dataset includes the following features:
-- User_ID: User ID
-- Product_ID: Product ID
-- Gender: Sex of User
-- Age: Age in bins
-- Occupation: Occupation (Masked)
-- City_Category: Category of the City (A, B, C)
-- Stay_In_Current_City_Years: Number of years stay in the current city
-- Marital_Status: Marital Status
-- Product_Category_1: Product Category (Masked)
-- Product_Category_2: Product may belong to another category as well (Masked)
-- Product_Category_3: Product may belong to another category as well (Masked)
-- Purchase: Purchase Amount (Target Variable)
+## Checkpoint 1: Data Manipulation and Visualization using Python
 
-## Project Overview
-This project focuses on predicting the purchase amount for customers based on the provided dataset. By building a predictive model, the retail company aims to enhance its understanding of customer behavior and tailor personalized offers. The project involves data preprocessing, exploratory data analysis, feature engineering, model selection, training, and evaluation.
+### Objectives
 
-## Getting Started
-To get started with this project, follow these steps:
-1. Clone this repository.
-2. Download the dataset provided by the retail company.
-3. Set up your Python environment with the required dependencies.
-4. Run the provided Jupyter Notebook or Python script to explore the data and build the predictive model.
+- Data preprocessing: Handle missing values, encode categorical variables, and perform feature engineering.
+- Exploratory data analysis (EDA): Analyze the data to understand customer purchase behavior, identify patterns and trends, and explore relationships between variables.
+- Descriptive analysis: Calculate descriptive statistics, generate visualizations, and conduct statistical tests.
+- Customer segmentation: Segment customers based on their purchase behavior.
+- Predictive modeling: Build predictive models to forecast customer purchase amounts.
 
-## Data Description
-Describe the key features in the dataset and their significance for the project. Highlight any data preprocessing steps that were performed to clean and prepare the data for analysis. Include visualizations, summary statistics, or insights gained from the data exploration process.
+### Tasks
 
-## Modeling Approach
-Outline the approach taken to build the predictive model. Explain the choice of algorithms, features, and techniques used. Discuss any challenges encountered during the modeling phase and how they were addressed.
+- Load the dataset, explore its structure, and perform data cleaning and transformation.
+- Utilize Python's data visualization libraries to create informative visualizations.
+- Perform exploratory data analysis to uncover insights.
+- Summarize findings and trends from the data manipulation and visualization tasks.
 
-## Evaluation
-Explain the evaluation metric(s) used to assess the performance of the predictive model. Provide information on how the model's accuracy or predictive power will be measured. Highlight any considerations for model selection and potential areas for improvement.
+## Checkpoint 2: Visualization using Power-BI Dashboard and Model Building using ML Algorithms
 
-## Usage
-Provide instructions for using the trained model to predict customer purchase amounts. Include code snippets or examples demonstrating how to load the model and input customer data for prediction.
+### Objectives
 
-## Contributing
-If you'd like to contribute to this project, follow these steps:
-1. Fork this repository.
-2. Create a new branch for your feature or improvement.
-3. Make your changes and test thoroughly.
-4. Submit a pull request, detailing the changes you've made and their significance.
+- Create an interactive and visually appealing Power BI dashboard for the project.
+- Build machine learning models to predict customer purchase amounts.
 
-## License
-Specify the license under which this project is released. For example:
-This project is licensed under the [MIT License](LICENSE).
+### Tasks
+
+- Import the preprocessed dataset into Power BI and design an interactive dashboard.
+- Utilize Power BI visualizations to explore different aspects of the dataset.
+- Build and evaluate machine learning models for price prediction.
+- Compare model performance and select the best-performing algorithm.
+- Interpret trained ML models to gain insights into prediction factors.
+
+## Checkpoint 3: Final Presentation and Viva
+
+### Objectives
+
+- Prepare a final presentation including all checkpoint achievements.
+- Present findings, insights, and recommendations to stakeholders.
+
+### Tasks
+
+- Prepare a crisp final presentation that showcases achievements from all three checkpoints.
+- Participate in a Q&A session to discuss the case study, methods, and results.
+
+## About the Case Study
+
+Black Friday is a significant shopping event in the United States. The case study focuses on customer purchase behavior analysis during Black Friday sales. The dataset includes customer demographics, product details, and purchase amounts. The objectives include data preprocessing, exploratory data analysis, segmentation, predictive modeling, and recommendations for sales and marketing strategies.
+
+For more details, refer to the specific tasks and deliverables outlined for each checkpoint.
+
+## Data Dictionary
+
+Variable | Definition
+--- | ---
+User_ID | User ID
+Product_ID | Product ID
+Gender | Sex of User
+Age | Age in bins
+Occupation | Occupation (Masked)
+City_Category | Category of the City (A,B,C)
+Stay_In_Current_City_Years | Number of years stay in the current city
+Marital_Status | Marital Status
+Product_Category_1 | Product Category (Masked)
+Product_Category_2 | Product may belong to another category also (Masked)
+Product_Category_3 | Product may belong to another category also (Masked)
+Purchase | Purchase Amount (Target Variable)
+
+## Data Analysis Tasks (Checkpoints)
+
+### Checkpoint 1: Data Manipulation and Visualization using Python
+
+#### Task 1.1: Data Manipulation and Visualization
+
+- Load the dataset using Python's pandas library.
+- Explore the dataset using functions like `.head()`, `.info()`, and `.describe()`.
+- Handle missing values, outliers, and inconsistent data.
+- Transform the data as necessary for analysis.
+- Create informative visualizations using matplotlib or seaborn.
+- Perform exploratory data analysis (EDA) techniques to uncover insights.
+
+#### Task 1.2: Exploratory Data Analysis & Statistical Analysis
+
+- Perform descriptive statistics for numerical and categorical variables.
+- Conduct bi-variate and multi-variate analysis.
+- Identify and treat missing values.
+- Analyze and treat outliers.
+- Scale data using min-max and/or Z-score normalization.
+- Perform relevant hypothesis testing (t-tests, chi-square, Anova tests).
+
+### Checkpoint 2: Visualization using Power-BI Dashboard and Model Building using ML Algorithms
+
+#### Task 2.1: Visualization using Power-BI Dashboard
+
+- Import preprocessed dataset into Power BI.
+- Model data relationships and apply necessary transformations.
+- Design an interactive Power BI dashboard.
+- Visualize key performance indicators (KPIs) and exploratory visualizations.
+- Implement cross-filtering and slicing functionalities.
+- Create narrative-driven visualizations for insights and storytelling.
+
+#### Task 2.2: Model Building using ML Algorithms
+
+- Prepare training and testing datasets.
+- Select suitable ML algorithms for price prediction.
+- Train and evaluate ML models.
+- Compare model performance and select the best algorithm.
+- Interpret trained models for insights into prediction factors.
+
+### Checkpoint 3: Final Presentation and Viva
+
+- Prepare a final presentation summarizing achievements from all checkpoints.
+- Participate in a Q&A session to discuss the case study, methods, and results.
+
+## Optional Enhancements
+
+- Depending on dataset characteristics, consider additional techniques such as handling imbalanced data, creating interactive visualizations, dimensionality reduction, geospatial analysis, and temporal analysis.
+- For ML model building, explore ensemble modeling, feature selection, model deployment, and performance monitoring.
+
+## Conclusion
+
+This GitHub repository provides a comprehensive guide to the Retail Analytics Case Study, covering data manipulation, exploratory analysis, visualization, and machine learning modeling. Each checkpoint's tasks and objectives are outlined to help users understand and navigate the case study.
+
+For more detailed information and to access code examples, visualizations, and documentation, please refer to the respective folders and files within this repository.
+
+---
+
+*Note: This is a simplified and general format for a GitHub readme. You can customize and expand upon this template based on your needs and the specific structure of your repository.*
+
+*Last updated on: August 5, 2023*
+
