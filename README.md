@@ -1,6 +1,6 @@
 # Customer Purchase Behavior Prediction Project
 
-<img align="right" src="https://drive.google.com/file/d/1aVuTfIr1Z5YEnsjQRxlvZHfGGCpodLYL/view?usp=sharing">
+<img align="right" heght="100" src="https://cdn-icons-png.flaticon.com/512/5190/5190582.png">
 
 ## Table of Contents
 - [Problem Statement](#problem-statement)
