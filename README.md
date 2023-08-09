@@ -1,5 +1,7 @@
 # Customer Purchase Behavior Prediction Project
 
+<img align="right" src="https://drive.google.com/file/d/1aVuTfIr1Z5YEnsjQRxlvZHfGGCpodLYL/view?usp=sharing">
+
 ## Table of Contents
 - [Problem Statement](#problem-statement)
 - [Data Acquisition](#data-acquisition)
